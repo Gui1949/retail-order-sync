@@ -1,0 +1,25 @@
+{
+  "name": "@retail-hub/order-sync-engine",
+  "version": "1.0.0",
+  "description": "Sistema corporativo de sincronizacao de pedidos de PDV para redes de lojas e integracao com ERP via RabbitMQ resiliente",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/tests/outbox.test.js",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "retail",
+    "pos-integration",
+    "erp-sync",
+    "rabbitmq",
+    "transactional-outbox",
+    "typescript"
+  ],
+  "author": "Guilherme Santiago Floriano",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
